@@ -10,10 +10,6 @@ A TypeScript SDK for interacting with the Poolz Finance GraphQL API.
 
 ```sh
 npm install poolz-data-graphql-sdk
-# or
-yarn add poolz-data-graphql-sdk
-# or
-pnpm add poolz-data-graphql-sdk
 ```
 
 ## 👀 Usage
