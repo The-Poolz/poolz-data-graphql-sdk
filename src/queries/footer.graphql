@@ -1,0 +1,29 @@
+query Footer {
+  footer {
+    Company {
+      name
+      url
+      newWindow
+    }
+    Help {
+      name
+      url
+      newWindow
+    }
+    Information {
+      name
+      url
+      newWindow
+    }
+    Social {
+      name
+      url
+      newWindow
+    }
+    Boost_Social {
+      name
+      url
+      newWindow
+    }
+  }
+}

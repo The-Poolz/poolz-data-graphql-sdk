@@ -1,0 +1,29 @@
+{
+  "name": "poolz-data-graphql-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codegen": "graphql-codegen --config codegen.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@graphql-codegen/cli": "^5.0.5",
+    "@graphql-codegen/typescript": "^4.1.5",
+    "@graphql-codegen/typescript-document-nodes": "^4.0.15",
+    "@graphql-codegen/typescript-graphql-request": "^6.2.0",
+    "@graphql-codegen/typescript-operations": "^4.5.1",
+    "@graphql-codegen/typescript-react-apollo": "^4.3.2",
+    "graphql": "^16.10.0",
+    "graphql-request": "^7.1.2"
+  },
+  "devDependencies": {
+    "@graphql-codegen/introspection": "4.0.3",
+    "@graphql-codegen/cli": "5.0.5",
+    "@graphql-codegen/client-preset": "4.7.0"
+  }
+}

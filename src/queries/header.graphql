@@ -1,0 +1,10 @@
+query Header {
+  header {
+    HeaderList {
+      text
+      url
+      ctaText
+      textColor
+    }
+  }
+}
