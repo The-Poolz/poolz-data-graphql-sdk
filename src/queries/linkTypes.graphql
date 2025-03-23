@@ -1,0 +1,12 @@
+query LinkTypes {
+  linkTypes {
+    Name
+    LightIcon {
+      url
+    }
+    IsOnTop
+    DarkIcon {
+      url
+    }
+  }
+}
