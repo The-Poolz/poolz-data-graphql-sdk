@@ -37,8 +37,15 @@ jobs:
 
       - name: Set version from tag
         run: |
-          echo "tag=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
-          npm version ${{ env.tag }}
+          # Extract the tag name and update the package.json version
+          VERSION=${GITHUB_REF#refs/tags/}
+          echo "Setting version to $VERSION"
+          npm version $VERSION --no-git-tag-version
+
+      - name: Commit version bump
+        run: |
+          git add package.json package-lock.json
+          git commit -m "chore: bump version to ${{ env.VERSION }}"
           git push
 
       - name: Publish to NPM
