@@ -1,0 +1,28 @@
+query Boost {
+  boost {
+    MainCTA {
+      id
+      text
+      url
+      ctaText
+      addText
+      flag
+      backColor
+      TextColor
+      hoverBackColor
+    }
+    Title
+    TopBgUrl
+    iconText {
+      icon {
+        url
+      }
+      text
+      smallText
+    }
+    smallText
+    sliders {
+      url
+    }
+  }
+}
