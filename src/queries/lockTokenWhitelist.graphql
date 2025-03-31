@@ -1,0 +1,6 @@
+query LockTokenWhitelists($filters: LockTokenWhitelistFiltersInput) {
+  lockTokenWhitelists(filters: $filters) {
+    Address
+    Name
+  }
+}

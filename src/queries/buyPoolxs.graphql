@@ -1,0 +1,9 @@
+query BuyPoolzs {
+  buyPoolzs(sort: "Order") {
+    Icon {
+      url
+    }
+    Name
+    URL
+  }
+}

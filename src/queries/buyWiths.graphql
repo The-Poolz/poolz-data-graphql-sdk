@@ -1,0 +1,13 @@
+query BuyWiths {
+  buyWiths {
+    Name
+    ChainAddresses {
+      Address
+      chain_setting {
+        chain {
+          chainId
+        }
+      }
+    }
+  }
+}
