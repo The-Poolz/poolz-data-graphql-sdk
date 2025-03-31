@@ -1,0 +1,9 @@
+query DefaultWallets {
+  defaultWallets(sort: "order") {
+    Icon {
+      url
+    }
+    Link
+    Name
+  }
+}
