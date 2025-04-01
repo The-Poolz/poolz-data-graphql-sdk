@@ -1,3 +1,5 @@
+### rhis moved to here: https://github.com/The-Poolz/InterfaceStrapi
+
 # Poolz Data GraphQL SDK
 
 [![NPM Version](https://img.shields.io/npm/v/poolz-data-graphql-sdk)](https://www.npmjs.com/package/poolz-data-graphql-sdk)
