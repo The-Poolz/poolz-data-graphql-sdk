@@ -1,0 +1,8 @@
+query MarketCapBadges {
+  marketCapBadges {
+    icon {
+      url
+    }
+    Link
+  }
+}
